@@ -29,7 +29,11 @@ Customer Support Chatbot (Senior Project) - Neural Net and Bayes implementation
 
 ## Running the Application  
 In order to run the application, you can run the following command within the "ChatBot" Directory:  
-`sudo python3.6 Main1.py`
+`sudo python3.6 Main1.py`  
+The chatbot will then be available from the public IP address on port 5000.  
+To simplify access, you can use a domain that forwards to the IP on port 5000, such as:  
+`(Public IP 184.105.5.79)`  
+`www.botcssp.com` -> `http://184.105.5.79:5000/`  
 
 ## Modifying 
 ### Neural Net Data
