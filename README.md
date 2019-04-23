@@ -4,6 +4,7 @@ Customer Support Chatbot (Senior Project) - Neural Net and Bayes implementation
 ## Installation Requirements
 ### Opearting System Requirement 
 - Ubuntu 16.04
+- Nvidia GPU
 
 ### Software Requirements 
 - NVIDIA - CUDA (9.0)  
@@ -30,5 +31,11 @@ Customer Support Chatbot (Senior Project) - Neural Net and Bayes implementation
 In order to run the application, you can run the following command within the "ChatBot" Directory:  
 `sudo python3.6 Main1.py`
 
+## Modifying 
+### Neural Net Data
+The Neural Net uses a ".from" and ".to" file in order to train the data.  In order to train it, the ".from" is the response that it would receive from a user.  The ".to" is the response that will be used to train the chatbot based on the ".from" response.  
+The ".from" and ".to" are essentially text files where each new line / return is a new entry.  Each new line / return has to be lined up with eachother in order to train correctly.  
+
+### Bayes Layer Data
 
 
