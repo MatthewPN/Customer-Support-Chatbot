@@ -6,18 +6,12 @@ Source: https://github.com/daniel-kukiela/nmt-chatbot
 
 Table of Contents
 -------------
-2. [Setup](#setup)
-3. [Custom summary values (evaluation)](#custom-summary-values-evaluation)
-4. [Standard vs BPE/WPM-like (subword) tokenization, embedded detokenizer](#standard-vs-bpewpm-like-subword-tokenization-embedded-detokenizer)
-5. [Rules files](#rules-files)
-6. [Tests](#tests)
-7. [More detailed information about training a model](#more-detailed-information-about-training-a-model)
-8. [Utils](#utils)
-9. [Inference](#inference)
-10. [Importing nmt-chatbot](#importing-nmt-chatbot)
-11. [Deploying chatbot/model](#deploying-chatbotmodel)
-12. [Demo chatbot](#demo-chatbot)
-13. [Changelog](#changelog)
+1. [Setup](#setup)
+2. [Rules files](#rules-files)
+3. [Tests](#tests)
+4. [More detailed information about training a model](#more-detailed-information-about-training-a-model)
+5. [Inference](#inference)
+6. [Importing nmt-chatbot](#importing-nmt-chatbot)
 
 
 Setup
