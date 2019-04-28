@@ -29,7 +29,7 @@ Customer Support Chatbot (Senior Project) - Neural Net and Bayes implementation
 
 ## Running the Application  
 In order to run the application, you can run the following command within the "ChatBot" Directory:  
-`sudo python3.6 Main1.py`  
+`sudo python3.6 ChatbotWebApp.py`  
 The chatbot will then be available from the public IP address on port 5000.  
 To simplify access, you can use a domain that forwards to the IP on port 5000, such as:  
 `(Public IP 184.105.5.79)`  
@@ -44,17 +44,17 @@ The ".from" and ".to" are essentially text files where each new line / return is
 Modify Bayes Layer Data:
 
 - All questions and answers that are fed into the layer are within the QuestionAnswer.txt file,  
-	which needs to be in the same directory as the Main1.py file.  The file path to this file must correct  
-	in trainAgent() within the Main1.py file.  
+	which needs to be in the same directory as the ChatbotWebApp.py file.  The file path to this file must correct  
+	in trainAgent() within the ChatbotWebApp.py file.  
 -The format is as follows:  
 	Question::Answer (the :: delimites the end of the question and begginning of the answer. 
 	
 To train, do the following:  
     1. Fill the question answer file with data that you want to use.  
-	2. Make sure the file is in the same directory as Main1.py.  
-	3. Make sure the file paths in Main1.py are correct.  
+	2. Make sure the file is in the same directory as ChatbotWebApp.py.  
+	3. Make sure the file paths in ChatbotWebApp.py are correct.  
 	4. Run the trainAgent function.    
 In order to re-train with new data, the same process is followed, but make sure to
-	delete all .p files within the same directory as Main1.py first.  
+	delete all .p files within the same directory as ChatbotWebApp.py first.  
 	
 
