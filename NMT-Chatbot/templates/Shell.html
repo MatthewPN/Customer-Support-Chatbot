@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/Scripts/Javascript.js"></script>
+  </head>
+
+  <body style="min-width: 700px">
+
+    <p id="txtOut" style="bottom: 30pt; position: absolute;">
+      Chat: stuff said...
+    </p>
+
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand"></a>
+        </div>
+        <div class="navbar-form">
+          <div class="form-group">
+            <input id="inpTxt" type="text" name="inpTxt" style="width:400pt;" class="form-control" placeholder="Say Something" />
+          </div>
+          <button  id="btnSend" type="button" class="btn btn-default"><span class="glyphicon glyphicon-comment"></span></button>
+          
+          <ul class="nav navbar-nav navbar-right">
+              <button class="btn btn-default"><span class="glyphicon glyphicon-cog" data-toggle="modal" data-target="#settMod"></span></button>
+          </ul>
+        </form>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="settMod" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>Settings will go here.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  </body>
+</html>
