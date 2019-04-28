@@ -2,7 +2,7 @@
 Customer Support Chatbot (Senior Project) - Neural Net and Bayes implementation
 
 ## Installation Requirements
-### Opearting System Requirement 
+### Operating System Requirement 
 - Ubuntu 16.04
 - Nvidia GPU
 
